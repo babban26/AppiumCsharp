@@ -1,0 +1,73 @@
+{
+  "uuid": "32eb4db4-7969-420c-a2e6-4f6cdd47a305",
+  "historyId": "20eb8f967f4416fddebed3e1a1167377",
+  "testCaseId": "039762462141a750a5d82d6c55186aac",
+  "fullName": "Frais/Features/HomePage/Verify positive scenario",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CEREBRENTs-MacBook-Pro"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "HomePage"
+    }
+  ],
+  "links": [],
+  "name": "Verify positive scenario",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the home page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706701630388,
+      "stop": 1706701630389
+    },
+    {
+      "name": "Then  print home page message",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706701630390,
+      "stop": 1706701630391
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1706701630388,
+  "stop": 1706701630391
+}

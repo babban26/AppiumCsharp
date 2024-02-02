@@ -1,0 +1,77 @@
+{
+  "uuid": "e0ab5732-7b5e-402a-ab09-8562ee7f75a9",
+  "historyId": "cd89a206e280745e8e4b03e195cd59ab",
+  "testCaseId": "498a5bfe1e3cde2f15d2ee01bd91a61d",
+  "fullName": "Frais/Features/HomePage/Verify negative scenario",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CEREBRENTs-MacBook-Pro"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "HomePage"
+    }
+  ],
+  "links": [],
+  "name": "Verify negative scenario",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Failed forcefully",
+    "trace": "NUnit.Framework.AssertionException: Failed forcefully\n   at NUnit.Framework.Assert.ReportFailure(String message)\n   at NUnit.Framework.Assert.Fail(String message)\n   at Frais.Steps.HomePageStepDef.ThenForcefullyFailThisStep() in /Users/cerebrentbabban/Workspace/Frais/Steps/HomePageStepDef.cs:line 31\n   at InvokeStub_Action`1.Invoke(Object, Span`1)\n   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the home page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706699551744,
+      "stop": 1706699551770
+    },
+    {
+      "name": "Then  forcefully fail this step",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "Failed forcefully",
+        "trace": "NUnit.Framework.AssertionException: Failed forcefully\n   at NUnit.Framework.Assert.ReportFailure(String message)\n   at NUnit.Framework.Assert.Fail(String message)\n   at Frais.Steps.HomePageStepDef.ThenForcefullyFailThisStep() in /Users/cerebrentbabban/Workspace/Frais/Steps/HomePageStepDef.cs:line 31\n   at InvokeStub_Action`1.Invoke(Object, Span`1)\n   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706699551772,
+      "stop": 1706699551792
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1706699551734,
+  "stop": 1706699551798
+}

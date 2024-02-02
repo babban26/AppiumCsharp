@@ -1,0 +1,73 @@
+{
+  "uuid": "82f1a656-c1c1-4b0f-9a6a-0bc3c0198ff8",
+  "historyId": "d5fa0bfe29d39603d5c3ffd3d28e0d8b",
+  "testCaseId": "3a6cfd3ebbe7bcce437aceaea684a897",
+  "fullName": "Frais/Features/HomePage/Verify home page",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CEREBRENTs-MacBook-Pro"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "HomePage"
+    }
+  ],
+  "links": [],
+  "name": "Verify home page",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the home page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706182649786,
+      "stop": 1706182649836
+    },
+    {
+      "name": "Given  I am on the home page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706182649838,
+      "stop": 1706182649838
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1706182649775,
+  "stop": 1706182649840
+}

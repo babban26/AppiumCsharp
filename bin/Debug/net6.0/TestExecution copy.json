@@ -1,0 +1,41 @@
+[
+    {
+      "uri": "/Users/cerebrentbabban/Workspace/Frais/Features/HomePage.feature",
+      "name": "Verify home page",
+      "elements": [
+        {
+          "type": "scenario",
+          "keyword": "Scenario",
+          "name": "Verify home page",
+          "line": 1,
+          "steps": [
+            {
+              "keyword": "Given ",
+              "name": "I am on the home page",
+              "line": 5,
+              "match": {
+                "location": "/Users/cerebrentbabban/Workspace/Frais/Steps/HomePageStepDef.cs"
+              },
+              "result": {
+                "status": "passed",
+                "duration": 500000
+              }
+            },
+            {
+                "keyword": "Given ",
+                "name": "I am on the home page",
+                "line": 5,
+                "match": {
+                  "location": "/Users/cerebrentbabban/Workspace/Frais/Steps/HomePageStepDef.cs"
+                },
+              "result": {
+                "status": "passed",
+                "duration": 200000
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  

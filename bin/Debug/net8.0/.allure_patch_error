@@ -1,0 +1,17 @@
+System.TypeInitializationException: The type initializer for 'MonoMod.Utils.DMDEmitDynamicMethodGenerator' threw an exception.
+ ---> System.InvalidOperationException: Cannot find returnType fieeld on DynamicMethod
+   at MonoMod.Utils.DMDEmitDynamicMethodGenerator..cctor()
+   --- End of inner exception stack trace ---
+   at MonoMod.Utils.DMDEmitDynamicMethodGenerator.GenerateCore(DynamicMethodDefinition dmd, Object context)
+   at MonoMod.Utils.DMDGenerator`1.Generate(DynamicMethodDefinition dmd, Object context)
+   at MonoMod.Utils.DynamicMethodDefinition.Generate(Object context)
+   at MonoMod.Utils.DynamicMethodDefinition.Generate()
+   at HarmonyLib.MethodPatcher.CreateReplacement(Dictionary`2& finalInstructions)
+   at HarmonyLib.PatchFunctions.UpdateWrapper(MethodBase original, PatchInfo patchInfo)
+   at HarmonyLib.PatchProcessor.Patch()
+   at HarmonyLib.Harmony.Patch(MethodBase original, HarmonyMethod prefix, HarmonyMethod postfix, HarmonyMethod transpiler, HarmonyMethod finalizer)
+   at Allure.SpecFlowPlugin.SelectiveRun.AllureSpecFlowPatcher.PatchRunnerFactory(Harmony patcher, MethodInfo factoryCandidate)
+   at Allure.SpecFlowPlugin.SelectiveRun.AllureSpecFlowPatcher.PatchRunnerFactories(Harmony patcher, IEnumerable`1 factoryCandidates)
+   at Allure.SpecFlowPlugin.SelectiveRun.AllureSpecFlowPatcher.InjectTestPlanCheckToTestRunner(Harmony patcher)
+   at Allure.SpecFlowPlugin.SelectiveRun.AllureSpecFlowPatcher.InjectTestPlanSupport(IUnitTestRuntimeProvider unitTestRuntimeProvider)
+   at Allure.SpecFlowPlugin.SelectiveRun.AllureSpecFlowPatcher.EnsureTestPlanSupportInjected(IUnitTestRuntimeProvider unitTestRuntimeProvider, Action`1 logError)

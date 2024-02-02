@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Allure.SpecFlow" Version="2.11.0" />
+     <PackageReference Include="Allure.NUnit" Version="2.10.0" />
+    <PackageReference Include="JUnitTestLogger" Version="1.1.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.6.0" />
+    <PackageReference Include="nunit" Version="4.0.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.5.0" />
+    <PackageReference Include="NUnit.Analyzers" Version="3.9.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="FluentAssertions" Version="5.10.3" />
+    <PackageReference Include="Appium.WebDriver" Version="5.0.0-rc.4" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
+    <PackageReference Include="Atlassian.SDK" Version="13.0.0" />
+    <PackageReference Include="SpecFlow" Version="3.9.74" />
+    <PackageReference Include="SpecFlow.NUnit" Version="3.9.74" />
+    <PackageReference Include="NunitXml.TestLogger" Version="3.1.15" />
+    <PackageReference Include="NUnit.ConsoleRunner" Version="3.16.3" />
+    <PackageReference Include="log4net" Version="2.0.15" />
+  
+    <PackageReference Include="SpecFlow.Plus.LivingDocPlugin" Version="3.9.57" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Allure.NUnit">
+      <HintPath>bin\Debug\net8.0\Allure.NUnit.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="allure-results/" />
+    <Folder Include="TestResult/" />
+    <None Update="appSettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

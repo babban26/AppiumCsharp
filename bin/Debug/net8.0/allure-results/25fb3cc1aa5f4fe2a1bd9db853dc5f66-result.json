@@ -1,0 +1,75 @@
+{
+  "uuid": "42a41725-5a3d-471e-afe9-1c9e029c9cac",
+  "historyId": "d5fa0bfe29d39603d5c3ffd3d28e0d8b",
+  "testCaseId": "3a6cfd3ebbe7bcce437aceaea684a897",
+  "fullName": "Frais/Features/HomePage/Verify home page",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CEREBRENTs-MacBook-Pro"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "HomePage"
+    }
+  ],
+  "links": [],
+  "name": "Verify home page",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Unexpected character encountered while parsing value: C. Path '', line 0, position 0.",
+    "trace": "Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: C. Path '', line 0, position 0.\n   at Newtonsoft.Json.JsonTextReader.ParseValue()\n   at Newtonsoft.Json.JsonTextReader.Read()\n   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)\n   at Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)\n   at Newtonsoft.Json.Linq.JObject.Parse(String json)\n   at Frais.Hooks.Hooks.ExtractAllureAndConvertToZephyrScale(String allureResultsPath, String zephyrScaleJsonPath) in /Users/cerebrentbabban/Workspace/Frais/Hooks/Hook.cs:line 30\n   at Frais.Hooks.Hooks.AfterScenario() in /Users/cerebrentbabban/Workspace/Frais/Hooks/Hook.cs:line 19\n   at InvokeStub_Action`1.Invoke(Object, Span`1)\n   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.CallBaseInvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.MakeFixtureFromScenarioHook(Action`2 callLastHook, Action`1 startFixture, IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, HookBinding hook)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the home page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706194601708,
+      "stop": 1706194601731
+    },
+    {
+      "name": "Given  I am on the home page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706194601733,
+      "stop": 1706194601733
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1706194601703,
+  "stop": 1706194601734
+}

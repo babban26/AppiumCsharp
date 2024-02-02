@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<testsuites time="0.056" tests="1" failures="0">
+  <testsuite id="0" name="/Users/cerebrentbabban/Workspace/Frais/bin/Debug/net6.0/Frais.dll" tests="1" failures="0" time="0.056">
+    <testcase classname="Frais.Features.HomePageFeature" name="VerifyHomePage" time="0.0562030" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,58 @@
+{
+  "uuid": "f4461470-3254-40d1-ac56-346373e2cc97",
+  "historyId": "cd89a206e280745e8e4b03e195cd59ab",
+  "testCaseId": "498a5bfe1e3cde2f15d2ee01bd91a61d",
+  "fullName": "Frais/Features/HomePage/Verify negative scenario",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "CEREBRENTs-MacBook-Pro"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "HomePage"
+    }
+  ],
+  "links": [],
+  "name": "Verify negative scenario",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the home page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1706701571502,
+      "stop": 1706701571535
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1706701571492,
+  "stop": 1706701571539
+}

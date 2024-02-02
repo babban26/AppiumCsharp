@@ -1,0 +1,28 @@
+[
+  {
+  "uri": "livingdoc",
+  "name": "HomePageFeature",
+  "elements": [
+    {
+      "type": "scenario",
+      "keyword": "Scenario",
+      "name": "VerifyHomePage",
+      "line": 1,
+      "steps": [
+        {
+          "keyword": "Given I am on the home page",
+          "name": "test 1",
+          "line": 5,
+          "match": {
+            "location": "Given I am on the home page"
+          },
+          "result": {
+            "status": "Passed",
+            "duration": "214748"
+          }
+        }
+      ]
+    }
+  ]
+}
+]

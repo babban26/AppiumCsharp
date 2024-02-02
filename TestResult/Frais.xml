@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<command-line><![CDATA[/Users/cerebrentbabban/Workspace/Frais/bin/Debug/net6.0/testhost.dll --port 61973 --endpoint 127.0.0.1:061973 --role client --parentprocessid 48001 --telemetryoptedin false]]></command-line>

@@ -1,0 +1,24 @@
+<test-run id="2" duration="0.066553" testcasecount="1" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2024-01-22T 13:07:09Z" end-time="2024-01-22T 13:07:11Z">
+  <test-suite type="Assembly" name="Frais.dll" fullname="/Users/cerebrentbabban/Workspace/Frais/bin/Debug/net6.0/Users/cerebrentbabban/Workspace/Frais/TestResult/Frais.dll" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2024-01-22T 13:07:11Z" end-time="2024-01-22T 13:07:11Z" duration="0.066553">
+    <test-suite type="TestSuite" name="Frais" fullname="Frais" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2024-01-22T 13:07:11Z" end-time="2024-01-22T 13:07:11Z" duration="0.066553">
+      <test-suite type="TestSuite" name="Features" fullname="Frais.Features" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2024-01-22T 13:07:11Z" end-time="2024-01-22T 13:07:11Z" duration="0.066553">
+        <test-suite type="TestFixture" name="HomePageFeature" fullname="Frais.Features.HomePageFeature" classname="Frais.Features.HomePageFeature" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2024-01-22T 13:07:11Z" end-time="2024-01-22T 13:07:11Z" duration="0.066553">
+          <test-case name="VerifyHomePage" fullname="Frais.Features.HomePageFeature.VerifyHomePage" methodname="VerifyHomePage" classname="HomePageFeature" result="Passed" start-time="2024-01-22T 13:07:11Z" end-time="2024-01-22T 13:07:11Z" duration="0.066553" asserts="0">
+            <properties>
+              <property name="Category" value="livingdoc" />
+            </properties>
+            <output><![CDATA[Given I am on the home page
+test 1
+-> done: HomePageStepDef.GivenIAmOnTheHomePage() (0.0s)
+Given I am on the home page
+test 1
+-> done: HomePageStepDef.GivenIAmOnTheHomePage() (0.0s)
+
+]]></output>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+    <errors />
+  </test-suite>
+</test-run>

@@ -1,0 +1,25 @@
+{
+  "uri": "Frais.Features.HomePageFeature",
+  "name": "VerifyHomePage",
+  "elements": [
+    {
+      "type": "test",
+      "name": "VerifyHomePage",
+      "id": "0",
+      "steps": [
+        {
+          "keyword": "YourKeyword",
+          "name": "YourStepName",
+          "line": 1,
+          "match": {
+            "location": "YourLocation"
+          },
+          "result": {
+            "status": "YourStatus",
+            "duration": 0
+          }
+        }
+      ]
+    }
+  ]
+}
